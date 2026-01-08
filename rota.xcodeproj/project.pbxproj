@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67141E6F2EF93095005047FF /* rotaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E6E2EF93095005047FF /* rotaApp.swift */; };
+		67141E6F2EF93095005047FF /* IstanbulOneZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E6E2EF93095005047FF /* IstanbulOneZoneApp.swift */; };
 		67141E712EF93095005047FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E702EF93095005047FF /* ContentView.swift */; };
 		67141E732EF93096005047FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67141E722EF93096005047FF /* Assets.xcassets */; };
 		67141E762EF93096005047FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67141E752EF93096005047FF /* Preview Assets.xcassets */; };
 		67141E802EF93096005047FF /* rotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E7F2EF93096005047FF /* rotaTests.swift */; };
 		67141E8A2EF93096005047FF /* rotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E892EF93096005047FF /* rotaUITests.swift */; };
 		67141E8C2EF93096005047FF /* rotaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E8B2EF93096005047FF /* rotaUITestsLaunchTests.swift */; };
+		AAAA00012F0C000000000001 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00002F0C000000000001 /* Place.swift */; };
+		AAAA00032F0C000000000001 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00022F0C000000000001 /* PlaceCategory.swift */; };
+		AAAA00052F0C000000000001 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00042F0C000000000001 /* MockData.swift */; };
+		AAAA00072F0C000000000001 /* PlaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00062F0C000000000001 /* PlaceStore.swift */; };
+		AAAA00092F0C000000000001 /* IstanbulMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00082F0C000000000001 /* IstanbulMapView.swift */; };
+		AAAA000B2F0C000000000001 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA000A2F0C000000000001 /* PlaceDetailView.swift */; };
+		AAAA000D2F0C000000000001 /* FilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA000C2F0C000000000001 /* FilterBar.swift */; };
+		AAAA000F2F0C000000000001 /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA000E2F0C000000000001 /* PlaceRow.swift */; };
+		AAAA00162F0C111100000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00152F0C111100000001 /* HomeView.swift */; };
+		AAAA00182F0C111100000001 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00172F0C111100000001 /* SearchView.swift */; };
+		AAAA001A2F0C111100000001 /* MapTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA00192F0C111100000001 /* MapTabView.swift */; };
+		AAAA001C2F0C111100000001 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA001B2F0C111100000001 /* ProfileView.swift */; };
+		AAAA001E2F0C2AAA00000001 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = AAAA001D2F0C2AAA00000001 /* Images */; };
+		AAAA00202F0C2BBB00000001 /* PlaceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA001F2F0C2BBB00000001 /* PlaceImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		67141E6B2EF93095005047FF /* rota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rota.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		67141E6E2EF93095005047FF /* rotaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotaApp.swift; sourceTree = "<group>"; };
+		67141E6E2EF93095005047FF /* IstanbulOneZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulOneZoneApp.swift; sourceTree = "<group>"; };
 		67141E702EF93095005047FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67141E722EF93096005047FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67141E752EF93096005047FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +58,20 @@
 		67141E852EF93096005047FF /* rotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67141E892EF93096005047FF /* rotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotaUITests.swift; sourceTree = "<group>"; };
 		67141E8B2EF93096005047FF /* rotaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAAA00002F0C000000000001 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		AAAA00022F0C000000000001 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
+		AAAA00042F0C000000000001 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		AAAA00062F0C000000000001 /* PlaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceStore.swift; sourceTree = "<group>"; };
+		AAAA00082F0C000000000001 /* IstanbulMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulMapView.swift; sourceTree = "<group>"; };
+		AAAA000A2F0C000000000001 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		AAAA000C2F0C000000000001 /* FilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBar.swift; sourceTree = "<group>"; };
+		AAAA000E2F0C000000000001 /* PlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRow.swift; sourceTree = "<group>"; };
+		AAAA00152F0C111100000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AAAA00172F0C111100000001 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AAAA00192F0C111100000001 /* MapTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabView.swift; sourceTree = "<group>"; };
+		AAAA001B2F0C111100000001 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AAAA001D2F0C2AAA00000001 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		AAAA001F2F0C2BBB00000001 /* PlaceImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +122,66 @@
 		67141E6D2EF93095005047FF /* rota */ = {
 			isa = PBXGroup;
 			children = (
-				67141E6E2EF93095005047FF /* rotaApp.swift */,
+				67141E6E2EF93095005047FF /* IstanbulOneZoneApp.swift */,
 				67141E702EF93095005047FF /* ContentView.swift */,
+				AAAA00102F0C000000000001 /* Models */,
+				AAAA00112F0C000000000001 /* Data */,
+				AAAA00122F0C000000000001 /* ViewModels */,
+				AAAA00132F0C000000000001 /* Views */,
+				AAAA001D2F0C2AAA00000001 /* Images */,
 				67141E722EF93096005047FF /* Assets.xcassets */,
 				67141E742EF93096005047FF /* Preview Content */,
 			);
 			path = rota;
+			sourceTree = "<group>";
+		};
+		AAAA00102F0C000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA00002F0C000000000001 /* Place.swift */,
+				AAAA00022F0C000000000001 /* PlaceCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAAA00112F0C000000000001 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA00042F0C000000000001 /* MockData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AAAA00122F0C000000000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA00062F0C000000000001 /* PlaceStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAAA00132F0C000000000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA00082F0C000000000001 /* IstanbulMapView.swift */,
+				AAAA000A2F0C000000000001 /* PlaceDetailView.swift */,
+				AAAA00152F0C111100000001 /* HomeView.swift */,
+				AAAA00172F0C111100000001 /* SearchView.swift */,
+				AAAA00192F0C111100000001 /* MapTabView.swift */,
+				AAAA001B2F0C111100000001 /* ProfileView.swift */,
+				AAAA001F2F0C2BBB00000001 /* PlaceImageView.swift */,
+				AAAA00142F0C000000000001 /* ViewComponents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAAA00142F0C000000000001 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA000C2F0C000000000001 /* FilterBar.swift */,
+				AAAA000E2F0C000000000001 /* PlaceRow.swift */,
+			);
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 		67141E742EF93096005047FF /* Preview Content */ = {
@@ -233,6 +315,7 @@
 			files = (
 				67141E762EF93096005047FF /* Preview Assets.xcassets in Resources */,
 				67141E732EF93096005047FF /* Assets.xcassets in Resources */,
+				AAAA001E2F0C2AAA00000001 /* Images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +340,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAA001C2F0C111100000001 /* ProfileView.swift in Sources */,
+				AAAA001A2F0C111100000001 /* MapTabView.swift in Sources */,
+				AAAA000D2F0C000000000001 /* FilterBar.swift in Sources */,
+				AAAA00052F0C000000000001 /* MockData.swift in Sources */,
+				AAAA00072F0C000000000001 /* PlaceStore.swift in Sources */,
+				AAAA00092F0C000000000001 /* IstanbulMapView.swift in Sources */,
+				AAAA00032F0C000000000001 /* PlaceCategory.swift in Sources */,
+				AAAA00012F0C000000000001 /* Place.swift in Sources */,
+				AAAA000B2F0C000000000001 /* PlaceDetailView.swift in Sources */,
+				AAAA00182F0C111100000001 /* SearchView.swift in Sources */,
 				67141E712EF93095005047FF /* ContentView.swift in Sources */,
-				67141E6F2EF93095005047FF /* rotaApp.swift in Sources */,
+				67141E6F2EF93095005047FF /* IstanbulOneZoneApp.swift in Sources */,
+				AAAA00162F0C111100000001 /* HomeView.swift in Sources */,
+				AAAA000F2F0C000000000001 /* PlaceRow.swift in Sources */,
+				AAAA00202F0C2BBB00000001 /* PlaceImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
