@@ -55,7 +55,7 @@ struct ProfileView: View {
                     .overlay(Image(systemName: "person.fill").foregroundColor(.accentColor))
 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Onezone Foodie")
+                    Text("Rota Foodie")
                         .font(.headline)
                     Text("İstanbul")
                         .foregroundColor(.secondary)

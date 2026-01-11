@@ -21,7 +21,7 @@ struct HomeView: View {
             .padding(.horizontal)
             .padding(.bottom, 24)
         }
-        .navigationTitle("onezone")
+        .navigationTitle("rota")
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Place.self) { place in
             PlaceDetailView(place: place)
@@ -30,7 +30,7 @@ struct HomeView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("onezone onaylı mekanlar")
+            Text("rota onaylı mekanlar")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
             Text("İstanbul'un en iyi restoranları, kafeleri ve barları")

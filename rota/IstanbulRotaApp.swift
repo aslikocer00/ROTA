@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct IstanbulOneZoneApp: App {
+struct IstanbulRotaApp: App {
     @StateObject private var store = PlaceStore()
 
     var body: some Scene {

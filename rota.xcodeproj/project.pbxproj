@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67141E6F2EF93095005047FF /* IstanbulOneZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E6E2EF93095005047FF /* IstanbulOneZoneApp.swift */; };
+		67141E6F2EF93095005047FF /* IstanbulRotaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E6E2EF93095005047FF /* IstanbulRotaApp.swift */; };
 		67141E712EF93095005047FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67141E702EF93095005047FF /* ContentView.swift */; };
 		67141E732EF93096005047FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67141E722EF93096005047FF /* Assets.xcassets */; };
 		67141E762EF93096005047FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67141E752EF93096005047FF /* Preview Assets.xcassets */; };
@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		67141E6B2EF93095005047FF /* rota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rota.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		67141E6E2EF93095005047FF /* IstanbulOneZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulOneZoneApp.swift; sourceTree = "<group>"; };
+		67141E6E2EF93095005047FF /* IstanbulRotaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulRotaApp.swift; sourceTree = "<group>"; };
 		67141E702EF93095005047FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67141E722EF93096005047FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67141E752EF93096005047FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		67141E6D2EF93095005047FF /* rota */ = {
 			isa = PBXGroup;
 			children = (
-				67141E6E2EF93095005047FF /* IstanbulOneZoneApp.swift */,
+				67141E6E2EF93095005047FF /* IstanbulRotaApp.swift */,
 				67141E702EF93095005047FF /* ContentView.swift */,
 				AAAA00102F0C000000000001 /* Models */,
 				AAAA00112F0C000000000001 /* Data */,
@@ -351,7 +351,7 @@
 				AAAA000B2F0C000000000001 /* PlaceDetailView.swift in Sources */,
 				AAAA00182F0C111100000001 /* SearchView.swift in Sources */,
 				67141E712EF93095005047FF /* ContentView.swift in Sources */,
-				67141E6F2EF93095005047FF /* IstanbulOneZoneApp.swift in Sources */,
+				67141E6F2EF93095005047FF /* IstanbulRotaApp.swift in Sources */,
 				AAAA00162F0C111100000001 /* HomeView.swift in Sources */,
 				AAAA000F2F0C000000000001 /* PlaceRow.swift in Sources */,
 				AAAA00202F0C2BBB00000001 /* PlaceImageView.swift in Sources */,
