@@ -1,5 +1,7 @@
 ## Rota İstanbul (SwiftUI, static data)
 
+![Rota hero](assets/rota-hero.png)
+
 - SwiftUI iOS app with map, filters (kategori, fiyat, semt), favoriler, öne çıkanlar ve detay ekranı. Veriler statik olarak `MockData` içinde saklanıyor.
 
 ### Çalıştırma
